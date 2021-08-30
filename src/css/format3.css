@@ -18,7 +18,7 @@
 
 }
 
-h2 {   
+#container3block h2 {   
     width: 100%;
     color: #1E4681;
     font-family: Roboto;
@@ -27,15 +27,17 @@ h2 {
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 1px;
-
 }
 
 
-#container3block img  {
-    margin-left: 200px;
+#container3block img  {  
     width: 132px;
     height: 78px;
     position: absolute;
+    top: 205px;
+    left: 200px;
+
+
 }
 .card1 {
     margin-bottom: 31px;
@@ -61,4 +63,33 @@ h2 {
 
 .card3 {
     width: 159px;
+}
+@media (min-width: 1280px) {
+    .akada {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 224px;
+    }
+    
+    #container3block img  {
+        left: 864px;
+        position: absolute;
+    }
+    
+}
+@media (min-width: 834px) and (max-width: 1279px) {
+    .akada {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 224px;
+    }
+
+    #container3block img  {
+        left: 500px;
+        position: absolute;
+    }
 }
