@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+#container3block {
+    min-width: 375px;
+    max-width: 833px;
+    position: relative;
+
+}
+.title {
+    
+    width: 310.8px;
+    height: 43.34px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 26px;
+
+}
+
+#container3block h2 {   
+    width: 100%;
+    color: #1E4681;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 1px;
+}
+
+
+#container3block img  {  
+    width: 132px;
+    height: 78px;
+    position: absolute;
+    top: 205px;
+    left: 200px;
+
+
+}
+.card1 {
+    margin-bottom: 31px;
+    width: 178px;
+    height: 27px;
+}
+.small-text {
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+    margin: 0px;
+}
+
+.card2 {
+    width: 165px;
+    margin-bottom: 19px;
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.card3 {
+    width: 159px;
+}
+@media (min-width: 1280px) {
+    .akada {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 224px;
+    }
+    
+    #container3block img  {
+        left: 864px;
+        position: absolute;
+    }
+    
+}
+@media (min-width: 834px) and (max-width: 1279px) {
+    .akada {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 224px;
+    }
+
+    #container3block img  {
+        left: 500px;
+        position: absolute;
+    }
+}
