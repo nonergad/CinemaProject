@@ -1,50 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700;900&display=swap');
-body{
-    font-family: 'Roboto Slab', sans-serif;
-    width: 100%;
-    margin: 0px;
-}
 
-.title{
+.title {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 101.38%;
+    line-height: 100%;
 }
 
-.smalltext{
+.smalltext {
     font-size: 10px;
 }
-.courses_review_22{
+.courses_review_22 {
     background-color: #EFEFEF;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
 }
-.coursrev_22{
+.coursrev_22 {
     width:  calc(100% - 42px);
     padding: 0px 21px;
     background-color: white;
     border-radius: 14px;
     box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
 }
-.nametag_22{
+.nametag_22 {
     margin: 0px;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
 }
-.rev_info_22{
+.rev_info_22 {
     display: flex;
     flex-direction: row;
 }
-.face_icon_22{
+.face_icon_22 {
     width: 80px;
     height: 84px;
 }
 
-.coursestart_22{
+/* Начало курса */
+
+.coursestart_22 {
     background-color:#9DC9C8;
     display: flex;
+    flex-direction: column;
  }
+.pricetag_22 {
+    font-size: 80px;
+    line-height: 100%;
+    margin: 0px 0px 75px 0px; 
+}
+.price_22 {
+    font-size: 25px;
+    line-height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.trhead_22 {
+    margin: 35px;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: left;
+}
+.trbody_22{
+    font-size: 18px;
+    line-height: 100%;
+}
