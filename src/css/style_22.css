@@ -1,4 +1,22 @@
 .courses_review_22{
+    padding-left: 32px;
     justify-content: center;
     background-color: #EFEFEF;
+    display: grid;
+    place-items: center;
+    height: 420px;
+}
+.coursrev_22{
+    padding: 0px 21px;
+    background-color: white;
+    border-radius: 10px;
+    height: 250px;
+}
+.rev_info_22{
+    display: flex;
+    flex-direction: row;
+}
+.face_icon_22{
+    width: 80px;
+    height: 84px;
 }
