@@ -19,6 +19,7 @@ body{
     background-color: #EFEFEF;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 .coursrev_22{
     width:  calc(100% - 42px);
@@ -42,3 +43,8 @@ body{
     width: 80px;
     height: 84px;
 }
+
+.coursestart_22{
+    background-color:#9DC9C8;
+    display: flex;
+ }
