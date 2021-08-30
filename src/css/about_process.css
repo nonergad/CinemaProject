@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
+
+#wrapper-about {
+    margin: 0 auto;
+    max-width: 833px;
+    min-width: 375px;
+}
+
+.title {
+    margin-left: 25px;
+    font-family: 'Roboto Slab';
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.text {
+    width: 299px;
+    margin-bottom: 30px;
+    font-family: 'Roboto';;
+    font-size: 12px;
+    line-height: 18px;
+    list-style-type: disc;
+}
+
+.img-godzilla {
+    margin: 0 auto;
+    width: 179.87px;
+    height: 88.07px;
+}
