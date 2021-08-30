@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
 
-/* #about-wrapper {
-  /* min-width: 375px;
-  max-width: 833px; */
-}  */
-
 #large-img {
   width: 170px;
   height: 160px;
@@ -22,12 +17,12 @@
 }
 
 #cards-wrapper {
-  position: relative;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
 }
 #text-cards-wrapper {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -36,7 +31,7 @@
 }
 .about-card {
   margin: 34px 0;
-  width: 90px;
+  width: 50%;
   height: 45px;
 }
 .small-header {
