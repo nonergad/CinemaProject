@@ -1,16 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700;900&display=swap');
+body{
+    font-family: 'Roboto Slab', sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+
+.title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 101.38%;
+}
+
+.smalltext{
+    font-size: 10px;
+}
 .courses_review_22{
-    padding-left: 32px;
-    justify-content: center;
     background-color: #EFEFEF;
-    display: grid;
-    place-items: center;
-    height: 420px;
+    display: flex;
+    flex-direction: column;
 }
 .coursrev_22{
+    width:  calc(100% - 42px);
     padding: 0px 21px;
     background-color: white;
-    border-radius: 10px;
-    height: 250px;
+    border-radius: 14px;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+}
+.nametag_22{
+    margin: 0px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
 }
 .rev_info_22{
     display: flex;
