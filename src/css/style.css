@@ -31,3 +31,9 @@ html {
   line-height: 150%;
 }
 
+@media (min-width: 834px) {
+  .inner {
+    max-width: calc(834px - 0.95em * 2);
+  }
+}
+

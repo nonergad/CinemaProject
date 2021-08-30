@@ -15,10 +15,6 @@
     margin: 54px auto 0;
 }
 
-.wrapper-about2 {
-    width: 375px;
-}
-
 @media (min-width: 1280px) {
     .img-godzilla {
         display: flex;
@@ -30,11 +26,6 @@
 
     #wrapper-about {
         margin: 0;
-    }
-
-    .wrapper-about2 {
-        display: flex;
-        width: 1280px;
     }
 
     .wrapper-about3 {
