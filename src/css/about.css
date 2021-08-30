@@ -1,16 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+#about-courses {
+  margin-top: 67px;
+}
 
 #large-img {
   width: 170px;
   height: 160px;
-  margin: 0 auto;
-  margin-bottom: 45px;
+  margin: 0 auto 45px;
 }
 
-.title {
-  font-family: "Roboto Slab", serif;
-  font-size: 26px;
-}
 .text {
   font-size: 12px;
   line-height: 18px;
@@ -25,13 +23,11 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  /* width: calc(100% - 108px); */
-  width: 60%;
+  justify-content: flex-start;
 }
 .about-card {
-  margin: 34px 0;
-  width: 50%;
+  margin: 16px 0;
+  width: 40%;
   height: 45px;
 }
 .small-header {
