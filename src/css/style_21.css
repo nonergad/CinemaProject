@@ -10,9 +10,7 @@ footer {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 375px;
     margin: auto;
-    padding: 0 0 0 40px;
 }
 
 .syncimage_21 {
