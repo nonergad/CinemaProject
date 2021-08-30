@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
 
 body,
@@ -8,4 +9,9 @@ html {
   min-width: 375px;
   max-width: 833px;
   font-family: "Roboto", sans-serif;
+=======
+body, html {
+    margin: 0;
+    padding: 0;
+>>>>>>> master
 }
