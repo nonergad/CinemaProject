@@ -19,7 +19,6 @@
     margin-left: 5px;
 }
 
-
 #authors .small_text,
 #authors .small_text_1 {
     width: 214.09px;
@@ -55,8 +54,15 @@
     display: flex;
     flex-direction: column;
 }
+#authors .person .small_text_1 {
+    display: none;
+}
+#authors .name_i .small_text_1 {
+    display: block;
+}
 
-@media screen and (min-width: 834px) and (max-width: 1279px) {
+
+@media screen and (min-width: 834px) {
 
     #authors .authors23 {
         display: flex;
@@ -110,6 +116,13 @@
         margin-top: 22px;
     }
 
+    #authors .person .small_text_1 {
+        display: block;
+    }
+    #authors .name_i .small_text_1 {
+        display: none;
+    }
+
     #authors .card {
         position: relative;
     }
@@ -135,3 +148,4 @@
         margin-top: 123px;
     }
 }
+
