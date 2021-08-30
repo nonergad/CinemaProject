@@ -1,4 +1,11 @@
-body, html {
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0.95em;
+  font-size: 38px;
+  min-width: 375px;
+  max-width: 833px;
+  font-family: "Roboto", sans-serif;
 }
