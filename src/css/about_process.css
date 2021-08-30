@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap');
 
 #wrapper-about {
-    margin: 0 auto;
     max-width: 833px;
     min-width: 375px;
 }
@@ -23,7 +22,49 @@
 }
 
 .img-godzilla {
+    width: 180px;
+    height: 88px;
     margin: 0 auto;
-    width: 179.87px;
-    height: 88.07px;
+}
+
+.wrapper-about2 {
+    width: 375px;
+}
+
+@media (min-width: 1280px) {
+    .title {
+        font-family: 'Roboto Slab';
+        font-size: 55px;
+        line-height: 56px;
+    }
+
+    .text {
+        width: 662px;
+        font-family: 'Roboto';
+        font-size: 24px;
+        line-height: 36px;
+        list-style-type: disc;
+    }
+
+    .img-godzilla {
+        display: flex;
+        width: 386px;
+        height: 189px;
+        align-self: flex-end;
+        margin-bottom: 80px;
+    }
+
+    #wrapper-about {
+        margin: 0;
+    }
+
+    .wrapper-about2 {
+        display: flex;
+        width: 1280px;
+    }
+
+    .wrapper-about3 {
+        display: flex;
+        flex-direction: column;
+    }
 }
