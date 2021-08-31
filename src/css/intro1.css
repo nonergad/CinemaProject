@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
 
-.container-intro p {
+#container-intro p {
     margin: 0;
 }
 
-.container-intro {
+#container-intro {
 
 }
 .logo {
@@ -17,7 +17,7 @@
     margin-right: 4px ;
 }
 /* navigaion */
-.container-intro nav {
+#container-intro nav {
     display: flex;
     justify-content: space-between;
     margin: 45px 0 8px;
@@ -86,7 +86,7 @@
 }
 
 /* main */
-.container-intro h1 {
+#container-intro h1 {
     font-family: 'Roboto Slab', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -94,7 +94,7 @@
     line-height: 100%;
 }
 
-.container-intro .text {
+#container-intro .text {
     width: 210px;
     height: 30px;
     font-family: Roboto, sans-serif;
