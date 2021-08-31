@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 #authors .inner {
-    max-width: 834px;
+    max-width: 375px;
     position: relative;
 }
 
@@ -81,6 +81,7 @@
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;
+        margin: 0 0 70px 0;
     }
 
     #authors .box_small_text {
@@ -172,9 +173,89 @@
         width: 146px;
         height: 115px;
     }
+
+    #authors .inner {
+        max-width: 834px;
+    }
+
+    #authors .authors23 {
+        max-width: 834px;
+    }
+
 }
 
 @media screen and (min-width: 1280px) {
+
+    #authors .inner {
+        min-width: 1280px;
+    }
+
+    #authors .authors23 {
+        max-width: 1280px;
+        margin: 0 0 250px 0;
+    }
+    
+    .clerk {
+        display: block;
+        position: absolute;
+        right: 14px;
+        top: -485px;
+    }
+    
+    .clerk img {
+        width: 253px;
+        height: 199px;
+    }
+
+    #authors .course_authors23 {
+        margin-top: 697px;
+    }
+
+    #authors .images23 img {
+        width: 189px;
+        height: 178px;
+    }
+
+    #authors .card h3 {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+
+    #authors .card {
+        padding-left: 9px;
+        width: 312px;
+    }
+
+    #authors .small_text, #authors .small_text_1 {
+        width: 365px;
+        left: 123px;
+        font-size: 18px;
+    }
+
+    #authors .card img {
+        display: flex;
+        width: 28px;
+        height: 28px;
+    }
+
+    #authors .box_small_text {
+        position: absolute;
+        box-shadow: 0 0 5px #c0c0c0;
+        left: 0;
+        top: 139px;
+        border-radius: 10px;
+        padding: 31px 21px 17px 25px;
+        width: 399px;
+    }
+
+    #authors .two {
+        top: -345px;
+    }
+
+    #authors .small_text:nth-child(3) {
+        margin-top: 26px;
+    }
 
 
 
