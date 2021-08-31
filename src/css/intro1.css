@@ -121,7 +121,7 @@
 
 /* media */
 
-@media(min-width:1280px){
+ @media(min-width:1280px){
     #container-intro .inner{
         margin: 0;
     }
@@ -140,7 +140,7 @@
         top: 21px;
         margin-top: 21px;
         margin-right: 1207px;
-        margin-left: 121px;
+        /* margin-left: 121px; */
     }
     .p1{
         width: 112px;
@@ -155,7 +155,7 @@
         display: flex;
         justify-content: space-between;
         margin-top: 96px;
-        margin-left: 121px;
+        /* margin-left: 121px; */
         margin-right: 810px;
         margin-bottom: 13px;
         font-size: 20px;
@@ -183,7 +183,7 @@
         height: 32px;
         font-size: 20px;
         line-height: 23px;
-        /* or 23px */
+        
     }
     .calendar{
         display: flex;
@@ -194,12 +194,8 @@
         left: 500px;
         top: 187px;
 
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
         font-size: 20px;
         line-height: 23px;
-        color: black;
 
 
     }
@@ -216,12 +212,12 @@
         line-height: 81px;
         /* or 81px */
         color: #000000;
-        margin-left: 122px;
+        /* margin-left: 122px; */
         margin-right: 140px;
         margin-bottom: 6px;
     }
     #container-intro .text{ 
-        margin-left: 122px;
+        /* margin-left: 122px; */
         margin-right: 354px;
         margin-bottom: 161px;
         width: 414px;
@@ -238,7 +234,7 @@
     .man{
         width: 304px;
         height: 356px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
     }
      .man-one{ 
         width: 304px;
@@ -258,10 +254,10 @@
         height: 233px;
         background: #1E4681;
         border-radius: 4px ;
-        padding: 21px 29px 69px 29px ;
+        padding: 10px ;
         margin-top: 71px;
         margin-right: 540px;
-        margin-left: 403px ;
+        /* margin-left: 403px ; */
         margin-bottom: 156px ;
     }
     .info{
@@ -288,7 +284,141 @@
 
     }
 
-}
+ } 
+   
+@media(min-width:835px ){
+     #container-intro .inner{
+        margin: 0;
+    }
+    #container-intro{
+        width: 835px;
+        margin: auto;
+        background: white;
+    }
+    .logo{
+        width: 65px;
+        height: 38px;
+        margin-top: 22px;
+        margin-right: 699px;
+        /* margin-left: 70px; */
+        margin-bottom: 56px;
+    }
+    .p1{
+        width: 65px;
+        height: 38px ;
+    }
+    .p2 , .p3 , .p4{
+        width: 12px;
+        height: 12px;
+    }
+    #container-intro nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        margin-bottom: 7px;
+        margin-right: 469px;
+        /* margin-left: 70px; */
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .online-courses{
+        display: flex;
+        margin-right: 14px;
+    }
+    .online-courses p{
+        width: 75px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .watch{
+        display: flex;
+
+    }
+    .watch p{
+        width: 75px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .calendar{
+        display: flex;
+    }
+    .calendar p{
+        width: 75px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #container-intro h1{
+        width: 363px;
+        height: 110px ;
+        font-size: 46px;
+        line-height: 47px;
+        /* margin-left: 70px; */
+        margin-right: 81px;
+        margin-bottom: 2px;
+    }
+    #container-intro .text{
+        /* margin-left: 71px; */
+        margin-right: 180px;
+        margin-bottom: 93px;
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+    .man{
+        width: 176px;
+        height: 206px;
+        margin-left: 0px;
+    }
+    .man-one{
+        width: 176px;
+        height: 206px;
+    }
+    .text-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .block{
+        display: flex;
+        margin-top: 2px;
+    }
+    .info{ 
+        width: 280px;
+        height: 89px;
+        background: #1E4681;
+        border-radius: 4px ;
+        padding: 21px 29px 69px 29px ;
+        margin-top: 41px;
+        margin-right: 313px;
+        margin-left: 233px ;
+        margin-bottom: 90px ;
+    }
+    .info{
+        position: relative;
+    }
+    .info p{
+        width: 249px;
+        height: 65px;
+        left: 250px;
+        top: 415px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+     .author{ 
+        position: absolute;
+        width: 162px;
+        height: 26px;
+        
+        font-size: 14px;
+        text-align: right;
+        margin-right: 25px ;
+        color: #FFFFFF;
+
+
+    } 
+} 
 
 
 
