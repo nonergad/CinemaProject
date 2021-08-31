@@ -127,7 +127,6 @@
 
     #authors .name_i {
         display: flex;
-        margin-top: 22px;
     }
 
     #authors .person .small_text_1 {
@@ -208,7 +207,7 @@
     }
 
     #authors .course_authors23 {
-        margin-top: 697px;
+        margin-top: 400px;
     }
 
     #authors .images23 img {
@@ -250,7 +249,11 @@
     }
 
     #authors .two {
-        top: -345px;
+        top: -367px;
+    }
+
+    #authors .name_i {
+        margin-top: 25px;
     }
 
     #authors .small_text:nth-child(3) {
