@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
 
-#container-intro p {
-    margin: 0;
-}
 
-#container-intro {
-
-}
 .logo {
     width:  52px ;
     height: 30px;
@@ -17,75 +11,48 @@
     margin-right: 4px ;
 }
 /* navigaion */
-#container-intro nav {
+ #container-intro nav {
     display: flex;
     justify-content: space-between;
     margin: 45px 0 8px;
     max-width: 300px;
 }
 .online-courses {
+    /* border: 1px solid black; */
     display: flex;
     margin-right: 11px;
 }
 .online-courses p{
-
-    width: 60.58px;
-    height: 14.91px;
-    left: 48.98px;
-    top: 111.35px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    padding: 0;
+    margin: 0;
     font-size: 10px;
-    line-height: 115%;
-    /* or 11px */
-
-
-    color: #000000;
 
 }
 .watch {
+    /* border: 1px solid black; */
+
     display: flex;
     
 }
 .watch p {
-    width: 60.58px;
-    height: 14.91px;
-    left: 136.12px;
-    top: 111.35px;
-
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
-    line-height: 115%;
-    /* or 11px */
-
-
-    color: #000000;
+    margin: 0;
+    padding: 0;
 }
 .calendar {
+    /* border: 1px solid black; */
     display: flex;
 }
 .calendar p {
-    width: 60.58px;
-    height: 14.91px;
-    left: 211.6px;
-    top: 111.35px;
 
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
-    line-height: 115%;
-    /* or 11px */
-
-
-    color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
-/* main */
+ /* main  */
 #container-intro h1 {
     font-family: 'Roboto Slab', sans-serif;
     font-style: normal;
@@ -108,8 +75,8 @@
 .man {
     width: 141.68px ;
     height: 175.1px;
-    left: 201px;
-    top: 254px ;
+    /* left: 201px; */
+    /* top: 254px ; */
     margin-right: 32.24px;
     margin-left: 201px;
     margin-bottom: 30.9px;
@@ -148,3 +115,177 @@
     line-height: 130%;
 }
 
+
+
+
+
+/* media */
+
+@media(min-width:1280px){
+    .inner{
+        margin: 0;
+    }
+
+
+
+    #container-intro{
+        width: 1280px;
+        margin: auto;
+        background: white;
+    }
+    .logo{
+        width: 112px;
+        height: 66px;
+        left: 121px;
+        top: 21px;
+        margin-top: 21px;
+        margin-right: 1207px;
+        margin-left: 121px;
+    }
+    .p1{
+        width: 112px;
+        height: 66px;
+
+    }
+    .p2, .p3, .p4{
+        width: 22px;
+        height: 21px ;
+    }
+    #container-intro nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 96px;
+        margin-left: 121px;
+        margin-right: 810px;
+        margin-bottom: 13px;
+        font-size: 20px;
+        line-height: 23px;
+        color: black;
+        width: 130px;
+        height: 32px;
+
+    }
+    .online-courses{
+        display: flex;
+        margin-right: 25px;
+    }
+    .online-courses p{
+        width: 130px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .watch {
+        display: flex;
+    }
+    .watch p{
+        width: 130px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 23px;
+        /* or 23px */
+    }
+    .calendar{
+        display: flex;
+    }
+    .calendar p{
+        width: 130px;
+        height: 32px;
+        left: 500px;
+        top: 187px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        color: black;
+
+
+    }
+    /* main */
+    #container-intro h1{
+        width: 628px;
+        height: 190px;
+        left: 122px;
+        top: 232px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 81px;
+        /* or 81px */
+        color: #000000;
+        margin-left: 122px;
+        margin-right: 140px;
+        margin-bottom: 6px;
+    }
+    #container-intro .text{ 
+        margin-left: 122px;
+        margin-right: 354px;
+        margin-bottom: 161px;
+        width: 414px;
+        height: 62px;
+        left: 122px;
+        top: 427px;
+
+        font-size: 20px;
+        line-height: 150%;
+
+
+
+    }
+    .man{
+        width: 304px;
+        height: 356px;
+    margin-left: 0px;
+    }
+     .man-one{ 
+        width: 304px;
+        height: 356px;
+    }
+    .text-one{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .block{
+        display: flex;
+        margin-top: 4px;
+    }
+    .info{
+        width: 496px;
+        height: 233px;
+        background: #1E4681;
+        border-radius: 4px ;
+        padding: 21px 29px 69px 29px ;
+        margin-top: 71px;
+        margin-right: 540px;
+        margin-left: 403px ;
+        margin-bottom: 156px ;
+    }
+    .info{
+        position: relative;
+    }
+    .info p{
+        width: 430.59px;
+        height: 113px;
+        left: 432px;
+        top: 701.04px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .author{
+        position: absolute;
+        width: 280.5px;
+        height: 45.64px;
+        
+        font-size: 20px;
+        text-align: right;
+        margin-right: 25px ;
+        color: #FFFFFF;
+
+
+    }
+
+}
