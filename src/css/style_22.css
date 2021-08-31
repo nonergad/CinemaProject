@@ -34,13 +34,20 @@
     margin-top: 16px;
 }
 
+/* Начало курса */
+.course_start_22 {
 
-
-
-
-
-
-
+}
+.price_tag_22 {
+    font-size: 37px;
+}
+.course_start_info_22 {
+    display: flex;
+    
+}
+.start_info_block_22 {
+    margin-right: 30px;
+}
 
 
 
