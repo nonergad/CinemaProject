@@ -32,6 +32,9 @@ html {
 }
 
 @media (min-width: 834px) {
+  body {
+    font-size: 46px;
+  }
   .inner {
     max-width: calc(1280px - 0.95em * 2);
   }
@@ -46,6 +49,9 @@ html {
 }
 
 @media (min-width: 1280px) {
+  body {
+    font-size: 80px;
+  }
   .inner {
     /*max-width: calc(1280px - 0.95em * 2);*/
   }
