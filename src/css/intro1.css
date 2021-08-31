@@ -396,12 +396,14 @@
         position: relative;
     }
     .info p{
+        margin: 0;
         width: 430.59px;
         height: 113px;
         left: 432px;
         top: 701.04px;
         font-size: 25px;
         line-height: 32px;
+        font-size: 25px ;
     }
     .author{
         position: absolute;
