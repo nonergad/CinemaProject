@@ -147,5 +147,16 @@
     #authors .course_authors23 {
         margin-top: 123px;
     }
+
+    .clerk img {
+        position: absolute;
+        width: 146px;
+        height:115px;
+    }
 }
 
+@media screen and (min-width: 1280px) {
+
+
+
+}
