@@ -38,6 +38,7 @@
     margin-bottom: 31px;
     width: 178px;
     height: 27px;
+    margin-right: 50px;
 }
 
 .small-text {
@@ -53,6 +54,7 @@
     font-family: Roboto, sans-serif;
     font-size: 10px;
     line-height: 130%;
+    margin-right: 50px;
 }
 
 .card3 {
@@ -64,12 +66,14 @@
         display: flex; 
         flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: flex-start;
+        margin-right: 250px;
     }
     
     #container3block img  {
-        left: 864px;
+        left: 500px;
         position: absolute;
+        top: 140px;
     }
     
 }
@@ -85,5 +89,6 @@
     #container3block img  {
         left: 500px;
         position: absolute;
+        top: 140px
     }
 }
