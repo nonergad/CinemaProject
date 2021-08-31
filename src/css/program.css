@@ -31,10 +31,10 @@
 
 .stripe_24 {
     background-color: black;
-    width: 60px;
+    width: 20%;
     height: 6px;
-    margin-right: 0;
-    margin-left: auto;
+    position: absolute;
+    right: 0;
 }
 
 .title_24 {
@@ -45,11 +45,17 @@
 
 @media (min-width: 834px) {
 
+    .stripe_24 {
+        width: 40%;
+        height: 8px;
+    }
+
     .cards_24 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
+        width: 756px;
     }
 
     .card_24 {
@@ -82,9 +88,19 @@
     .title_24 {
         font-size: 32px;
     }
+
+    .centercards_24 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1280px) {
+
+    .stripe_24 {
+        height: 14px;
+    }
 
     .title_24 {
         font-size: 55px;
@@ -92,24 +108,36 @@
 
     .card_24 {
         margin: 41px 37px 0 0;
-        width: 399px;
+        width: calc(33% - 37px);
         height: 328px;
         border-radius: 30px;
     }
 
     .card_24 img {
-        width: 399px;
-        height: 160px;
+        width: 100%;
+        height: auto;
     }
 
     .name_24 {
         font-size: 30px;
-        width: 365px;
+        width: 100%;
+        padding-left: 15px;
+        margin-top: 7px;
     }
 
     .about_24 {
         font-size: 25px;
-        width: 365px;
-        margin-top: 35px;
+        width: 100%;
+        margin-top: 45px;
+        padding-left: 15px;
     }
+
+    .card_24:last-child :last-child {
+        margin-top: 10px;
+    }
+
+    .cards_24 {
+        width: 100%;
+    }
+
 }
