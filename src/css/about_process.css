@@ -37,3 +37,22 @@
         display: flex;
     }
 }
+
+@media (min-width: 834px) and (max-width: 1279px) {
+    .img-godzilla {
+        width: 223px;
+        height: 109px;
+        display: flex;
+        align-self: flex-end;
+        margin-bottom: 20px;
+        margin-left: 70px;
+    }
+
+    .wrapper-about3 {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-about2 {
+        display: flex;
+    }
+}
