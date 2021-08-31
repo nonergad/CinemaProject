@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+#authors .inner {
+    max-width: 834px;
+    position: relative;
+}
+
 #authors .title {
     line-height: 26px;
     font-style: normal;
@@ -13,6 +18,10 @@
     width: 214px;
 }
 
+#authors .authors23 {
+    max-width: 375px;
+    margin: auto;
+}
 
 #authors .card img {
     display: none;
@@ -61,6 +70,10 @@
     display: block;
 }
 
+.clerk {
+    display: none;
+}
+
 
 @media screen and (min-width: 834px) {
 
@@ -87,7 +100,7 @@
         margin-top: 72px;
     }
 
-    #authors img {
+    #authors .card img {
         width: 109px;
         height: 103px;
     }
@@ -148,10 +161,16 @@
         margin-top: 123px;
     }
 
-    .clerk img {
+    .clerk {
+        display: block;
         position: absolute;
+        right: 14px;
+        top: -185px;
+    }
+
+    .clerk img {
         width: 146px;
-        height:115px;
+        height: 115px;
     }
 }
 

@@ -32,7 +32,7 @@
     height: 78px;
     position: absolute;
     top: 205px;
-    right: 30px;
+    right: 444px;
 }
 .card1 {
     margin-bottom: 31px;
@@ -74,6 +74,7 @@
         left: 500px;
         position: absolute;
         top: 140px;
+        
     }
     
 }
@@ -82,13 +83,21 @@
         display: flex; 
         flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-between;
-        margin-right: 224px;
+        justify-content: flex-start;
+        margin-right: 250px;
     }
 
     #container3block img  {
         left: 500px;
         position: absolute;
-        top: 140px
+        top: 140px;
     }
+}
+@media (min-width:375px) and (max-width: 833px) {
+    #container3block img {
+        width: 132px;
+        height: 78px;
+        position: sticky;
+        top: 205px;
+        margin-left: 160px;
 }
