@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700;900&display=swap');
+
+.smalltext {
+    font-size: 10px;
+}
+.courses_review_22 {
+    background-color: #EFEFEF;
+    padding: 0px 36px 32px 35px;
+}
+.courseall_22{
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    padding: 18px 21px 13px;
+}
+.review_prof_22 {
+    display: flex;
+    align-items: center;
+}
+.review_prof_inf_22{
+    margin-left: 14px;
+}
+.rev_name {
+    font-size: 14px;
+    margin: 0px;
+}
+.face_icon_22 {
+    width: 80px;
+    height: 84px;
+}
+.facebook_icon_22{
+    height: 17px;
+    width: 15px;
+    margin-top: 16px;
+}
+
+/* Начало курса */
+.course_start_22 {
+    background-color: #9DC9C8;
+    padding: 60px 0px;
+}
+.price_tag_22 {
+    font-size: 37px;
+}
+.course_start_info_22 {
+    display: flex;
+    
+}
+.start_info_block_22 {
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* Отзыв */
+/* 
+.courses_review_22 {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+}
+.coursrev_22 {
+    width:  calc(100% - 42px - 70px);
+    padding: 0px 21px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+    margin-left: 35px;
+}
+.nametag_22 {
+    margin: 0px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+.rev_info_22 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.face_icon_22 {
+    width: 80px;
+    height: 84px;
+}
+
+.rev_face_22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.facebook_22 {
+    width: 15px;
+    height: 17px;
+    margin-top: 10px;
+}
+
+/* Начало курса */
+
+/* .coursestart_22 {
+    background-color:#9DC9C8;
+    display: flex;
+    flex-direction: column;
+ }
+.pricetag_22 {
+    font-size: 80px;
+    line-height: 100%;
+    margin: 0px 0px 75px 0px; 
+}
+.price_22 {
+    font-size: 25px;
+    line-height: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+.trhead_22 {
+    margin: 35px;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: left;
+}
+.trbody_22{
+    font-size: 18px;
+    line-height: 100%;
+}
+
+/* @media screen and (min-width: 839px) { */
+
+/* Отзыв */
+
+    /* .courses_review_22 {
+        background-color: #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        padding-left: 70px;
+    }
+    .coursrev_22 {
+        width:  460px;
+        height: 260px;
+        padding: 0px 26px;
+        background-color: white;
+        border-radius: 14px;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        margin-bottom: 65px;
+        margin-left: 0px;
+    }
+    .nametag_22 {
+        margin: 0px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .rev_face_22 {
+        margin-left: 0px 0px 17px 15px;
+    }
+    .rev_info_22 {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .face_icon_22 {
+        width: 110px;
+        height: 100px;
+    }
+    .smalltext_22 {
+        font-size: 12px;
+    }
+    .facebook_22 {
+        width: 18px;
+        height: 18px;
+    }
+
+    .title_22 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 100%;
+    }    */
