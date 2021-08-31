@@ -13,7 +13,7 @@ html {
 
 .inner {
   padding: 0 0.95em;
-  max-width: calc(375px - 0.95em * 2);
+  max-width: calc(834px - 0.95em * 2);
   margin: auto;
 }
 
@@ -33,7 +33,29 @@ html {
 
 @media (min-width: 834px) {
   .inner {
-    max-width: calc(834px - 0.95em * 2);
+    max-width: calc(1280px - 0.95em * 2);
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .inner {
+    /*max-width: calc(1280px - 0.95em * 2);*/
+  }
+
+  .title {
+    font-size: 55px;
+  }
+
+  .text {
+    font-size: 24px;
   }
 }
 
