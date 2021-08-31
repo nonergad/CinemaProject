@@ -9,8 +9,7 @@
   margin: 0 auto 45px;
 }
 
-.text {
-  font-size: 12px;
+#about-courses .text {
   line-height: 18px;
 }
 
@@ -53,6 +52,65 @@
   height: 102px;
 }
 
+@media (min-width: 835px) {
+  #about-main-block {
+    display: flex;
+  }
+  #large-img img {
+    width: 212px;
+    height: 199px;
+  }
+  #text-wrapper {
+    width: 55%;
+  }
+
+  #cards-wrapper {
+    display: none;
+  }
+  #cards-wrapper-desktop {
+    display: block;
+  }
+  #cards-wrapper-desktop .inner {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .about-card {
+    margin: 34px 0;
+  }
+  .small-header {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 0;
+  }
+  #cards-wrapper-desktop .small-text {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  #relative-parent-for-image {
+    display: flex;
+    justify-content: space-between;
+    min-width: 90%;
+    position: relative;
+  }
+  #text-cards-wrapper {
+    position: static;
+    flex-wrap: nowrap;
+    width: 70%;
+  }
+
+  #small-img {
+    position: relative;
+    left: 0;
+    width: 134px;
+    height: 127px;
+  }
+  #small-img img {
+    position: relative;
+    width: 134px;
+    height: 127px;
+  }
+}
+
 @media (min-width: 1280px) {
   .title {
     font-size: 55px;
@@ -73,9 +131,6 @@
   }
   #cards-wrapper {
     display: none;
-    /* display: flex;
-    /* flex-direction: reverse; */
-    /* justify-content: space-evenly; */
   }
   #cards-wrapper-desktop {
     display: block;
@@ -86,7 +141,6 @@
   }
   .about-card {
     margin: 34px 0;
-    /* max-width: 150px; */
   }
   .small-header {
     font-size: 25px;
@@ -99,7 +153,6 @@
   #relative-parent-for-image {
     display: flex;
     justify-content: space-between;
-    /* flex-direction: row-reverse; */
     min-width: 90%;
     position: relative;
   }
