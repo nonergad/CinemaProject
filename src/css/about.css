@@ -46,3 +46,39 @@
   width: 108px;
   height: 102px;
 }
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 55px;
+  }
+  #about-main-block {
+    display: flex;
+  }
+  #large-img img {
+    width: 366px;
+    height: 344px;
+  }
+  #text-wrapper {
+    width: 55%;
+  }
+  .text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .about-card {
+    margin: 34px 0;
+    width: 33%;
+  }
+  .small-header {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .small-text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  #small-img img {
+    width: 232px;
+    height: 203px;
+  }
+}
