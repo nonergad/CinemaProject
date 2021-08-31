@@ -114,7 +114,139 @@
     font-size: 10px;
     line-height: 130%;
 }
+@media(min-width:835px ){
+    #container-intro .inner{
+       margin: 0;
+   }
+   #container-intro{
+       width: 835px;
+       margin: auto;
+       background: white;
+   }
+   .logo{
+       width: 65px;
+       height: 38px;
+       margin-top: 22px;
+       margin-right: 699px;
+       /* margin-left: 70px; */
+       margin-bottom: 56px;
+   }
+   .p1{
+       width: 65px;
+       height: 38px ;
+   }
+   .p2 , .p3 , .p4{
+       width: 12px;
+       height: 12px;
+   }
+   #container-intro nav{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 55px;
+       margin-bottom: 7px;
+       margin-right: 469px;
+       /* margin-left: 70px; */
+       font-size: 12px;
+       line-height: 14px;
+   }
+   .online-courses{
+       display: flex;
+       margin-right: 14px;
+   }
+   .online-courses p{
+       width: 75px;
+       height: 18px;
+       font-size: 12px;
+       line-height: 14px;
+   }
+   .watch{
+       display: flex;
 
+   }
+   .watch p{
+       width: 75px;
+       height: 18px;
+       font-size: 12px;
+       line-height: 14px;
+   }
+   .calendar{
+       display: flex;
+   }
+   .calendar p{
+       width: 75px;
+       height: 18px;
+       font-size: 12px;
+       line-height: 14px;
+   }
+   #container-intro h1{
+       width: 363px;
+       height: 110px ;
+       font-size: 46px;
+       line-height: 47px;
+       /* margin-left: 70px; */
+       margin-right: 81px;
+       margin-bottom: 2px;
+   }
+   #container-intro .text{
+       /* margin-left: 71px; */
+       margin-right: 180px;
+       margin-bottom: 93px;
+       font-size: 12px;
+       line-height: 18px;
+
+   }
+   .man{
+       width: 176px;
+       height: 206px;
+       margin-left: 0px;
+   }
+   .man-one{
+       width: 176px;
+       height: 206px;
+   }
+   .text-one{
+       display: flex;
+       flex-direction: column;
+   }
+   .block{
+       display: flex;
+       margin-top: 2px;
+   }
+   .info{ 
+       width: 280px;
+       height: 89px;
+       background: #1E4681;
+       border-radius: 4px ;
+       padding: 21px 29px 69px 29px ;
+       margin-top: 41px;
+       margin-right: 313px;
+       margin-left: 233px ;
+       margin-bottom: 90px ;
+   }
+   .info{
+       position: relative;
+   }
+   .info p{
+       width: 249px;
+       height: 65px;
+       left: 250px;
+       top: 415px;
+       font-size: 14px;
+       line-height: 18px;
+   }
+    .author{ 
+       position: absolute;
+       width: 162px;
+       height: 26px;
+       
+       font-size: 14px;
+       text-align: right;
+       margin-right: 25px ;
+       color: #FFFFFF;
+
+
+   } 
+} 
 
 
 
@@ -286,7 +418,7 @@
 
  } 
    
-@media(min-width:835px ){
+/* @media(min-width:835px ){
      #container-intro .inner{
         margin: 0;
     }
@@ -300,7 +432,7 @@
         height: 38px;
         margin-top: 22px;
         margin-right: 699px;
-        /* margin-left: 70px; */
+        /* margin-left: 70px; *
         margin-bottom: 56px;
     }
     .p1{
@@ -317,7 +449,7 @@
         margin-top: 55px;
         margin-bottom: 7px;
         margin-right: 469px;
-        /* margin-left: 70px; */
+        /* margin-left: 70px; *
         font-size: 12px;
         line-height: 14px;
     }
@@ -355,12 +487,12 @@
         height: 110px ;
         font-size: 46px;
         line-height: 47px;
-        /* margin-left: 70px; */
+        /* margin-left: 70px; *
         margin-right: 81px;
         margin-bottom: 2px;
     }
     #container-intro .text{
-        /* margin-left: 71px; */
+        /* margin-left: 71px; *
         margin-right: 180px;
         margin-bottom: 93px;
         font-size: 12px;
@@ -418,7 +550,7 @@
 
 
     } 
-} 
+}  */
 
 
 
