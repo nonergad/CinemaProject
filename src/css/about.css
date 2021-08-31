@@ -19,6 +19,9 @@
   flex-direction: row-reverse;
   justify-content: space-evenly;
 }
+#cards-wrapper-desktop {
+  display: none;
+}
 #text-cards-wrapper {
   position: relative;
   display: flex;
@@ -26,9 +29,12 @@
   justify-content: flex-start;
 }
 .about-card {
-  margin: 16px 0;
+  margin: 16px 16px 16px 0;
   width: 40%;
   height: 45px;
+}
+.about-card p {
+  max-width: 76px;
 }
 .small-header {
   font-size: 12px;
@@ -65,19 +71,52 @@
     font-size: 24px;
     line-height: 36px;
   }
+  #cards-wrapper {
+    display: none;
+    /* display: flex;
+    /* flex-direction: reverse; */
+    /* justify-content: space-evenly; */
+  }
+  #cards-wrapper-desktop {
+    display: block;
+  }
+  #cards-wrapper-desktop .inner {
+    width: 100%;
+    margin: 40px 0;
+  }
   .about-card {
     margin: 34px 0;
-    width: 33%;
+    /* max-width: 150px; */
   }
   .small-header {
     font-size: 25px;
     line-height: 33px;
   }
-  .small-text {
+  #cards-wrapper-desktop .small-text {
     font-size: 18px;
     line-height: 23px;
   }
+  #relative-parent-for-image {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row-reverse; */
+    min-width: 90%;
+    position: relative;
+  }
+  #text-cards-wrapper {
+    position: static;
+    flex-wrap: nowrap;
+    width: 70%;
+  }
+
+  #small-img {
+    position: relative;
+    left: 0;
+    width: 366px;
+    height: 203px;
+  }
   #small-img img {
+    position: relative;
     width: 232px;
     height: 203px;
   }
