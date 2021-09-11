@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+#about-courses {
+  margin-top: 67px;
+}
+
+#large-img {
+  width: 170px;
+  height: 160px;
+  margin: 0 auto 45px;
+}
+
+#about-courses .text {
+  line-height: 18px;
+}
+
+#cards-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+#cards-wrapper-desktop {
+  display: none;
+}
+#text-cards-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.about-card {
+  margin: 16px 16px 16px 0;
+  width: 40%;
+  height: 45px;
+}
+.about-card p {
+  max-width: 76px;
+}
+.small-header {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+}
+.small-text {
+  font-size: 10px;
+  line-height: 13px;
+}
+#small-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 108px;
+  height: 102px;
+}
+
+@media (min-width: 835px) {
+  #about-main-block {
+    display: flex;
+  }
+  #large-img img {
+    width: 212px;
+    height: 199px;
+  }
+  #text-wrapper {
+    width: 55%;
+  }
+
+  #cards-wrapper {
+    display: none;
+  }
+  #cards-wrapper-desktop {
+    display: block;
+  }
+  #cards-wrapper-desktop .inner {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .about-card {
+    margin: 34px 0;
+  }
+  .small-header {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px 0;
+  }
+  #cards-wrapper-desktop .small-text {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  #relative-parent-for-image {
+    display: flex;
+    justify-content: space-between;
+    min-width: 90%;
+    position: relative;
+  }
+  #text-cards-wrapper {
+    position: static;
+    flex-wrap: nowrap;
+    width: 70%;
+  }
+
+  #small-img {
+    position: relative;
+    left: 0;
+    width: 134px;
+    height: 127px;
+  }
+  #small-img img {
+    position: relative;
+    width: 134px;
+    height: 127px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 55px;
+  }
+  #about-main-block {
+    display: flex;
+  }
+  #large-img img {
+    width: 366px;
+    height: 344px;
+  }
+  #text-wrapper {
+    width: 55%;
+  }
+  .text {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  #cards-wrapper {
+    display: none;
+  }
+  #cards-wrapper-desktop {
+    display: block;
+  }
+  #cards-wrapper-desktop .inner {
+    width: 100%;
+    margin: 40px 0;
+  }
+  .about-card {
+    margin: 34px 0;
+  }
+  .small-header {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  #cards-wrapper-desktop .small-text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  #relative-parent-for-image {
+    display: flex;
+    justify-content: space-between;
+    min-width: 90%;
+    position: relative;
+  }
+  #text-cards-wrapper {
+    position: static;
+    flex-wrap: nowrap;
+    width: 70%;
+  }
+
+  #small-img {
+    position: relative;
+    left: 0;
+    width: 366px;
+    height: 203px;
+  }
+  #small-img img {
+    position: relative;
+    width: 232px;
+    height: 203px;
+  }
+}

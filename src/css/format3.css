@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+#container3block {
+    position: relative;
+    margin-top: 50px;
+}
+
+#container3block .inner {
+    position: relative;
+}
+
+#container3block .title {
+    margin: 0;
+}
+
+#container3block h2 {   
+    width: 100%;
+    color: #1E4681;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 1px;
+}
+
+.akada {
+    margin-top: 20px;
+}
+#container3block img {
+    width: 132px;
+    height: 78px;
+    position: absolute;
+    top: 205px;
+    right: 444px;
+}
+.card1 {
+    margin-bottom: 31px;
+    width: 178px;
+    height: 27px;
+    margin-right: 50px;
+}
+
+.small-text {
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    line-height: 130%;
+    margin: 0;
+}
+
+.card2 {
+    width: 165px;
+    margin-bottom: 19px;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    line-height: 130%;
+    margin-right: 50px;
+}
+
+.card3 {
+    width: 160px;
+}
+
+@media (min-width: 1280px) {
+    .akada {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 250px;
+    }
+    
+    #container3block img  {
+        left: 500px;
+        position: absolute;
+        top: 140px;
+        
+    }
+    
+}
+@media (min-width: 834px) and (max-width: 1279px) {
+    .akada {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 250px;
+    }
+
+    #container3block img  {
+        left: 500px;
+        position: absolute;
+        top: 140px;
+    }
+}
+@media (min-width:375px) and (max-width: 833px) {
+    #container3block img {
+        width: 132px;
+        height: 78px;
+        top: 205px;
+        left: 160px;
+}

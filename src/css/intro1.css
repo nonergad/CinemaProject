@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;700&display=swap');
+
+
+.logo {
+    width:  52px ;
+    height: 30px;
+}
+.p2, .p3, .p4{
+    width: 10px;
+    height: 10px ;
+    margin-right: 4px ;
+}
+/* navigaion */
+ #container-intro nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0 8px;
+    max-width: 300px;
+}
+.online-courses {
+    /* border: 1px solid black; */
+    display: flex;
+    margin-right: 11px;
+}
+.online-courses p{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+
+}
+.watch {
+    /* border: 1px solid black; */
+
+    display: flex;
+    
+}
+.watch p {
+    font-family: Roboto;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+.calendar {
+    /* border: 1px solid black; */
+    display: flex;
+}
+.calendar p {
+
+    font-family: Roboto;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+ /* main  */
+#container-intro h1 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 100%;
+}
+
+#container-intro .text {
+    width: 210px;
+    height: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    line-height: 150%;
+}
+
+
+
+/* man */
+.man {
+    width: 141.68px ;
+    height: 175.1px;
+    /* left: 201px; */
+    /* top: 254px ; */
+    margin-right: 32.24px;
+    margin-left: 201px;
+    margin-bottom: 30.9px;
+}
+.info {
+    width: calc(225px - 26px );
+    height: calc(93px - 42px);
+    background: #1E4681;
+    border-radius: 2px;
+    transform: rotate(-4deg);
+    margin-left: 35px;
+    margin-right: 110px;
+    margin-top: 30px;
+    padding: 10px 14px 32px;
+}
+.info {
+    position: relative;
+}
+.info p {
+    width: 200px;
+    height: 52px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.author {
+    position: absolute;
+    bottom: 6px;
+    color: white;
+    right: 10px ;
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    line-height: 130%;
+}
+@media(min-width:835px ){
+    #container-intro .inner{
+       margin: 0;
+   }
+   #container-intro{
+       width: 835px;
+       margin: auto;
+       background: white;
+   }
+   .logo{
+       width: 65px;
+       height: 38px;
+       margin-top: 22px;
+       margin-right: 699px;
+       /* margin-left: 70px; */
+       margin-bottom: 56px;
+   }
+   .p1{
+       width: 65px;
+       height: 38px ;
+   }
+   .p2 , .p3 , .p4{
+       width: 12px;
+       height: 12px;
+   }
+   #container-intro nav{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 55px;
+       margin-bottom: 7px;
+       margin-right: 469px;
+       /* margin-left: 70px; */
+       font-size: 12px;
+       line-height: 14px;
+   }
+   .online-courses{
+       display: flex;
+       margin-right: 14px;
+   }
+   .online-courses p{
+       width: 75px;
+       height: 18px;
+       font-size: 12px;
+       line-height: 14px;
+   }
+   .watch{
+       display: flex;
+
+   }
+   .watch p{
+       width: 75px;
+       height: 18px;
+       font-size: 12px;
+       line-height: 14px;
+   }
+   .calendar{
+       display: flex;
+   }
+   .calendar p{
+       width: 75px;
+       height: 18px;
+       font-size: 12px;
+       line-height: 14px;
+   }
+   #container-intro h1{
+       width: 363px;
+       height: 110px ;
+       font-size: 46px;
+       line-height: 47px;
+       /* margin-left: 70px; */
+       margin-right: 81px;
+       margin-bottom: 2px;
+   }
+   #container-intro .text{
+       /* margin-left: 71px; */
+       margin-right: 180px;
+       margin-bottom: 93px;
+       font-size: 12px;
+       line-height: 18px;
+
+   }
+   .man{
+       width: 176px;
+       height: 206px;
+       margin-left: 0px;
+   }
+   .man-one{
+       width: 176px;
+       height: 206px;
+   }
+   .text-one{
+       display: flex;
+       flex-direction: column;
+   }
+   .block{
+       display: flex;
+       margin-top: 2px;
+   }
+   .info{ 
+       width: 280px;
+       height: 89px;
+       background: #1E4681;
+       border-radius: 4px ;
+       padding: 21px 29px 69px 29px ;
+       margin-top: 41px;
+       margin-right: 313px;
+       margin-left: 233px ;
+       margin-bottom: 90px ;
+   }
+   .info{
+       position: relative;
+   }
+   .info p{
+       width: 249px;
+       height: 65px;
+       left: 250px;
+       top: 415px;
+       font-size: 14px;
+       line-height: 18px;
+   }
+    .author{ 
+       position: absolute;
+       width: 162px;
+       height: 26px;
+       
+       font-size: 14px;
+       text-align: right;
+       margin-right: 25px ;
+       color: #FFFFFF;
+
+
+   } 
+} 
+
+
+
+
+/* media */
+
+ @media(min-width:1280px){
+    #container-intro .inner{
+        margin: 0;
+    }
+
+
+
+    #container-intro{
+        width: 1280px;
+        margin: auto;
+        background: white;
+    }
+    .logo{
+        width: 112px;
+        height: 66px;
+        left: 121px;
+        top: 21px;
+        margin-top: 21px;
+        margin-right: 1207px;
+        /* margin-left: 121px; */
+    }
+    .p1{
+        width: 112px;
+        height: 66px;
+
+    }
+    .p2, .p3, .p4{
+        width: 22px;
+        height: 21px ;
+    }
+    #container-intro nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 96px;
+        /* margin-left: 121px; */
+        margin-right: 810px;
+        margin-bottom: 13px;
+        font-size: 20px;
+        line-height: 23px;
+        color: black;
+        width: 130px;
+        height: 32px;
+
+    }
+    .online-courses{
+        display: flex;
+        margin-right: 25px;
+    }
+    .online-courses p{
+        width: 130px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .watch {
+        display: flex;
+    }
+    .watch p{
+        width: 130px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 23px;
+        
+    }
+    .calendar{
+        display: flex;
+    }
+    .calendar p{
+        width: 130px;
+        height: 32px;
+        left: 500px;
+        top: 187px;
+
+        font-size: 20px;
+        line-height: 23px;
+
+
+    }
+    /* main */
+    #container-intro h1{
+        width: 628px;
+        height: 190px;
+        left: 122px;
+        top: 232px;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 81px;
+        /* or 81px */
+        color: #000000;
+        /* margin-left: 122px; */
+        margin-right: 140px;
+        margin-bottom: 6px;
+    }
+    #container-intro .text{ 
+        /* margin-left: 122px; */
+        margin-right: 354px;
+        margin-bottom: 161px;
+        width: 414px;
+        height: 62px;
+        left: 122px;
+        top: 427px;
+
+        font-size: 20px;
+        line-height: 150%;
+
+
+
+    }
+    .man{
+        width: 304px;
+        height: 356px;
+    /* margin-left: 0px; */
+    }
+     .man-one{ 
+        width: 304px;
+        height: 356px;
+    }
+    .text-one{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .block{
+        display: flex;
+        margin-top: 4px;
+    }
+    .info{
+        width: 496px;
+        height: 233px;
+        background: #1E4681;
+        border-radius: 4px ;
+        padding: 10px ;
+        margin-top: 71px;
+        margin-right: 540px;
+        /* margin-left: 403px ; */
+        margin-bottom: 156px ;
+    }
+    .info{
+        position: relative;
+    }
+    .info p{
+        margin: 0;
+        width: 430.59px;
+        height: 113px;
+        left: 432px;
+        top: 701.04px;
+        font-size: 25px;
+        line-height: 32px;
+        font-size: 25px ;
+    }
+    .author{
+        position: absolute;
+        width: 280.5px;
+        height: 45.64px;
+        
+        font-size: 20px;
+        text-align: right;
+        margin-right: 25px ;
+        color: #FFFFFF;
+
+
+    }
+
+ } 
+   
+/* @media(min-width:835px ){
+     #container-intro .inner{
+        margin: 0;
+    }
+    #container-intro{
+        width: 835px;
+        margin: auto;
+        background: white;
+    }
+    .logo{
+        width: 65px;
+        height: 38px;
+        margin-top: 22px;
+        margin-right: 699px;
+        /* margin-left: 70px; *
+        margin-bottom: 56px;
+    }
+    .p1{
+        width: 65px;
+        height: 38px ;
+    }
+    .p2 , .p3 , .p4{
+        width: 12px;
+        height: 12px;
+    }
+    #container-intro nav{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 55px;
+        margin-bottom: 7px;
+        margin-right: 469px;
+        /* margin-left: 70px; *
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .online-courses{
+        display: flex;
+        margin-right: 14px;
+    }
+    .online-courses p{
+        width: 75px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .watch{
+        display: flex;
+
+    }
+    .watch p{
+        width: 75px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .calendar{
+        display: flex;
+    }
+    .calendar p{
+        width: 75px;
+        height: 18px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #container-intro h1{
+        width: 363px;
+        height: 110px ;
+        font-size: 46px;
+        line-height: 47px;
+        /* margin-left: 70px; *
+        margin-right: 81px;
+        margin-bottom: 2px;
+    }
+    #container-intro .text{
+        /* margin-left: 71px; *
+        margin-right: 180px;
+        margin-bottom: 93px;
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+    .man{
+        width: 176px;
+        height: 206px;
+        margin-left: 0px;
+    }
+    .man-one{
+        width: 176px;
+        height: 206px;
+    }
+    .text-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .block{
+        display: flex;
+        margin-top: 2px;
+    }
+    .info{ 
+        width: 280px;
+        height: 89px;
+        background: #1E4681;
+        border-radius: 4px ;
+        padding: 21px 29px 69px 29px ;
+        margin-top: 41px;
+        margin-right: 313px;
+        margin-left: 233px ;
+        margin-bottom: 90px ;
+    }
+    .info{
+        position: relative;
+    }
+    .info p{
+        width: 249px;
+        height: 65px;
+        left: 250px;
+        top: 415px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+     .author{ 
+        position: absolute;
+        width: 162px;
+        height: 26px;
+        
+        font-size: 14px;
+        text-align: right;
+        margin-right: 25px ;
+        color: #FFFFFF;
+
+
+    } 
+}  */
+
+
+
+/* programm course */

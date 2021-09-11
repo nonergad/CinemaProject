@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#authors .inner {
+    max-width: 375px;
+    position: relative;
+}
+
+#authors .title {
+    line-height: 26px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#authors .card {
+    padding-left: 9px;
+    width: 214px;
+}
+
+#authors .authors23 {
+    max-width: 375px;
+    margin: auto;
+}
+
+#authors .card img {
+    display: none;
+    margin-left: 5px;
+}
+
+#authors .small_text,
+#authors .small_text_1 {
+    width: 214.09px;
+    left: 123px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#authors .danila23,
+#authors .danila23_2 {
+    display: flex;
+}
+
+#authors h3 {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+#authors .danila23_2 {
+    margin-top: 70px;
+}
+
+#authors .small-text:nth-child(2) {
+    margin: 0;
+    padding-bottom: 27px;
+}
+
+#authors .small-text:nth-child(3) {
+    margin: 0;
+}
+
+#authors .person {
+    display: flex;
+    flex-direction: column;
+}
+#authors .person .small_text_1 {
+    display: none;
+}
+#authors .name_i .small_text_1 {
+    display: block;
+}
+
+.clerk {
+    display: none;
+}
+
+
+@media screen and (min-width: 834px) {
+
+    #authors .authors23 {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin: 0 0 70px 0;
+    }
+
+    #authors .box_small_text {
+        display: none;
+    }
+
+    #authors .small_text_1 {
+        margin-top: 0;
+    }
+
+    #authors .card h3 {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    #authors .danila23_2 {
+        margin-top: 72px;
+    }
+
+    #authors .card img {
+        width: 109px;
+        height: 103px;
+    }
+
+    #authors .title {
+        font-size: 32px;
+    }
+
+    #authors .course_authors23 h2 {
+        margin-bottom: 27px;
+    }
+
+    #authors .card img {
+        display: flex;
+        width: 16.22px;
+        height: 16.22px;
+    }
+
+    #authors .person {
+        flex-direction: column-reverse;
+        margin-top: 22px;
+    }
+
+    #authors .name_i {
+        display: flex;
+    }
+
+    #authors .person .small_text_1 {
+        display: block;
+    }
+    #authors .name_i .small_text_1 {
+        display: none;
+    }
+
+    #authors .card {
+        position: relative;
+    }
+
+    #authors .icon_wrapper:hover .box_small_text{
+        display: block;
+    }
+
+    #authors .box_small_text {
+        position: absolute;
+        box-shadow: 0 0 5px #C0C0C0;
+        left: 0;
+        top: 80px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    #authors .two {
+        top: -175px;
+    }
+
+    #authors .course_authors23 {
+        margin-top: 123px;
+    }
+
+    .clerk {
+        display: block;
+        position: absolute;
+        right: 14px;
+        top: -185px;
+    }
+
+    .clerk img {
+        width: 146px;
+        height: 115px;
+    }
+
+    #authors .inner {
+        max-width: 834px;
+    }
+
+    #authors .authors23 {
+        max-width: 834px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    #authors .inner {
+        min-width: 1280px;
+    }
+
+    #authors .authors23 {
+        max-width: 1280px;
+        margin: 0 0 250px 0;
+    }
+    
+    .clerk {
+        display: block;
+        position: absolute;
+        right: 14px;
+        top: -485px;
+    }
+    
+    .clerk img {
+        width: 253px;
+        height: 199px;
+    }
+
+    #authors .course_authors23 {
+        margin-top: 400px;
+    }
+
+    #authors .images23 img {
+        width: 189px;
+        height: 178px;
+    }
+
+    #authors .card h3 {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 30px;
+    }
+
+    #authors .card {
+        padding-left: 9px;
+        width: 312px;
+    }
+
+    #authors .small_text, #authors .small_text_1 {
+        width: 365px;
+        left: 123px;
+        font-size: 18px;
+    }
+
+    #authors .card img {
+        display: flex;
+        width: 28px;
+        height: 28px;
+    }
+
+    #authors .box_small_text {
+        position: absolute;
+        box-shadow: 0 0 5px #c0c0c0;
+        left: 0;
+        top: 139px;
+        border-radius: 10px;
+        padding: 31px 21px 17px 25px;
+        width: 399px;
+    }
+
+    #authors .two {
+        top: -367px;
+    }
+
+    #authors .name_i {
+        margin-top: 25px;
+    }
+
+    #authors .small_text:nth-child(3) {
+        margin-top: 26px;
+    }
+
+
+
+}

@@ -1,1 +1,1 @@
-# CinemaCoursesNew
+# Проект Cinema Сourses
