@@ -21,7 +21,7 @@
 #cards-wrapper-desktop {
   display: none;
 }
-#text-cards-wrapper {
+#about-courses-text-cards-wrapper {
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +60,7 @@
     width: 212px;
     height: 199px;
   }
-  #text-wrapper {
+  #about-courses-text-wrapper {
     width: 55%;
   }
 
@@ -71,8 +71,9 @@
     display: block;
   }
   #cards-wrapper-desktop .inner {
+    max-width: calc(834px - 0.95em * 2);
     width: 100%;
-    margin: 40px 0;
+    margin: 40px auto; 
   }
   .about-card {
     margin: 34px 0;
@@ -92,7 +93,7 @@
     min-width: 90%;
     position: relative;
   }
-  #text-cards-wrapper {
+  #about-courses-text-cards-wrapper {
     position: static;
     flex-wrap: nowrap;
     width: 70%;
@@ -122,10 +123,10 @@
     width: 366px;
     height: 344px;
   }
-  #text-wrapper {
+  #about-courses-text-wrapper {
     width: 55%;
   }
-  .text {
+  #about-courses .text {
     font-size: 24px;
     line-height: 36px;
   }
@@ -136,8 +137,9 @@
     display: block;
   }
   #cards-wrapper-desktop .inner {
+    max-width: calc(1280px - 0.95em * 2);
     width: 100%;
-    margin: 40px 0;
+    margin: 40px auto;
   }
   .about-card {
     margin: 34px 0;
@@ -156,7 +158,7 @@
     min-width: 90%;
     position: relative;
   }
-  #text-cards-wrapper {
+  #about-courses-text-cards-wrapper {
     position: static;
     flex-wrap: nowrap;
     width: 70%;
