@@ -50,9 +50,8 @@
 .start_info_block_22 {
     margin-right: 30px;
 }
-.smalltext_startc_22{
-    font-size: 10px;
-}
+
+
 /* ------------------------------------ */
 @media screen and (min-width: 834px) {
 
@@ -190,7 +189,7 @@
     .start_info_block_22 .smalltext_rev_22 {
         font-size: 18px;
     }
-    .smalltext_startc_22 {
+    .smalltext_startc_22{
         font-size: 18px;
     }
 }
