@@ -134,7 +134,7 @@
     }
     .courses_review_22 {
         background-color: #EFEFEF;
-        padding: 35px 0px 110px 84px;
+        padding: 35px 0px 110px 0px;
     }
     .courseall_22{
         background-color:white;
@@ -170,7 +170,7 @@
     /* Начало курса "ПЛАНШЕТ" */
     .course_start_22 {
         background-color:#9DC9C8;
-        padding: 115px 0px 180px 120px;
+        padding: 115px 0px 180px 0px;
     }
     .price_tag_22 {
         font-size: 80px;
