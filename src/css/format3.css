@@ -27,13 +27,13 @@
 .akada {
     margin-top: 20px;
 }
-#container3block img {
-    width: 132px;
-    height: 78px;
-    position: absolute;
-    top: 205px;
-    right: 444px;
-}
+    #container3block img {
+        width: 132px;
+        height: 78px;
+        position: absolute;
+        top: 205px;
+        right: 44px;
+    }
 .card1 {
     margin-bottom: 31px;
     width: 178px;
@@ -103,15 +103,13 @@
         }    
 }
 @media (min-width: 834px) and (max-width: 1279px) {
-    #container3block {
-        /* min-width: 834px; */
-    }
+ 
     #container3block img {
         width: 158px;
         height: 92px;
         margin-left: 1px;
         margin-right: 150px;
-        left: 750px;
+        left: 580px;
     }
     #container3block h1{
         font-weight: bold;
@@ -138,9 +136,11 @@
     }
 @media (min-width:375px) and (max-width: 833px) {
     #container3block img {
-        width: 274px;
-        height: 160px;
+        width: 132px;
+        height: 78px;
+        position: absolute;
         top: 205px;
-        left: 864px;
-}
+        right: 44px;
+    }
+
 }
