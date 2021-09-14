@@ -80,8 +80,8 @@
     #authors .authors23 {
         display: flex;
         flex-wrap: nowrap;
-        justify-content: space-between;
-        margin: 0 0 70px 0;
+        justify-content: center;
+        margin: 0 0 95px 0;
     }
 
     #authors .box_small_text {
@@ -154,7 +154,11 @@
     }
 
     #authors .two {
-        top: -175px;
+        top: -183px;
+    }
+
+    #authors .one {
+        left: -10px;
     }
 
     #authors .course_authors23 {
@@ -164,7 +168,7 @@
     .clerk {
         display: block;
         position: absolute;
-        right: 14px;
+        right: 95px;
         top: -185px;
     }
 
@@ -174,11 +178,11 @@
     }
 
     #authors .inner {
-        max-width: 834px;
+        max-width: calc(834px - 0.95em * 2);
     }
 
     #authors .authors23 {
-        max-width: 834px;
+        max-width: calc(834px - 0.95em * 2);
     }
 
 }
@@ -186,18 +190,20 @@
 @media screen and (min-width: 1280px) {
 
     #authors .inner {
-        min-width: 1280px;
+        max-width: calc(1280px - 0.95em * 2);
     }
 
     #authors .authors23 {
-        max-width: 1280px;
-        margin: 0 0 250px 0;
+        max-width: 100%;
+        max-width: calc(1280px - 0.95em * 2);
+        margin: 0px 0 180px 0;
+        justify-content: space-around;
     }
     
     .clerk {
         display: block;
         position: absolute;
-        right: 14px;
+        right: 104px;
         top: -485px;
     }
     
@@ -211,8 +217,8 @@
     }
 
     #authors .images23 img {
-        width: 189px;
-        height: 178px;
+        width: 180px;
+        height: 166px;
     }
 
     #authors .card h3 {
@@ -243,13 +249,13 @@
         box-shadow: 0 0 5px #c0c0c0;
         left: 0;
         top: 139px;
-        border-radius: 10px;
+        border-radius: 7px;
         padding: 31px 21px 17px 25px;
-        width: 399px;
+        width: 350px;
     }
 
     #authors .two {
-        top: -367px;
+        top: -366px;
     }
 
     #authors .name_i {
